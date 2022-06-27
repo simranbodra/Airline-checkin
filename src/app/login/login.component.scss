@@ -1,0 +1,27 @@
+.login-container {
+    // background-image: url('../../assets/images/backgroundimg.jpg');
+    background-color: rgb(255, 217, 0);
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+    .switch-mode {
+        margin-bottom: 20px;
+        font-weight: bold;
+        display: inline-flex;
+    }
+}
+
+.facebook-icon {
+    height: 3.125rem;
+    width: 190px;
+}
+
+#user-type-toggle {
+    padding-right: 1rem;
+}

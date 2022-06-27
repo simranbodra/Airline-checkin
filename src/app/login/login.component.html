@@ -1,0 +1,19 @@
+<div class="login-container">
+    <div style="text-align: center;">
+        <h2>Switch between account type and login</h2>
+        <div class="switch-mode">
+            <mat-slide-toggle (change)="toggleState($event)" id="user-type-toggle">
+            </mat-slide-toggle>
+            Admin
+            <!-- <mat-slide-toggle (change)="toggleState($event)"> {{ displayToggleState(currentToggleValue) }} mode
+            </mat-slide-toggle> -->
+        </div>
+        <div class="facebook-login-container">
+            <!-- <div class="fb-login-button" data-width="" data-size="large" 
+            data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" 
+            data-use-continue-as="false" (click)="register()"></div> -->
+            <img src="./../../assets/images/png/facebook-button.png" alt="Sign-in with facebook" (click)="register()"
+            class="facebook-icon">
+        </div>
+    </div>
+</div>
